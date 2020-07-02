@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 3</title>
+    <style media="screen">
+      .container {
+        display: flex;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        margin: auto;
+        width: 800px;
+        height: 80px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+
+      .logo {
+        padding-top: 15px;
+        height: 60%;
+        padding-left: 40px;
+        }
+
+      a {
+        text-decoration: none;
+        font-family: monospace;
+        color: black;
+        margin-left: 30px;
+        font-size: 17px;
+        padding-top: 10px;
+        }
+
+      .item {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="container">
+    <img class="logo" src="assets/logo2.png" alt="">
+    <ul class="item">
+      <a href="#">Inicio</a>
+      <a href="#">Entrevistas</a>
+      <a href="#">Música</a>
+      <a href="#">Tendencias</a>
+    </ul>
+    </nav>
+  </body>
+</html>
